@@ -162,3 +162,5 @@ This can occur for a number of reasons:
 # Screenshots
 
 ![http://www.jocys.com/projects/x360ce/Images/x360ce_General.png](http://www.jocys.com/projects/x360ce/Images/x360ce_General.png)
+# Credit:
+* Three Deejay for `build.yml`
