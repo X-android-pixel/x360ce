@@ -51,5 +51,5 @@ jobs:
     - name: Release
       run: |
         gh release delete latest --cleanup-tag --yes || true
-        gh release create latest --target ${{env.CommitHash}} --generate-notes --latest=true --prerelease --title "Xbox 360 Controller Emulator (X360CE) r${{env.CommitCount}}-${{env.CommitHashShort}}"
+        gh release create latest --target ${{env.CommitHash}} --generate-notes --latest=true --title "Xbox 360 Controller Emulator (X360CE) r${{env.CommitCount}}-${{env.CommitHashShort}}"
         gh release upload latest --clobber "build/${{github.event.repository.name}}.zip"
